@@ -1,0 +1,88 @@
+ImageSorter 4.3 Beta
+
+Copyright Visual Computing Group an der HTW Berlin
+
+www.visual-computing.com
+
+(C) 2005 - 2023
+**********************
+
+ImageSorter ist ein Bild-Browser Programm, das eine Sortierung von Bildern nach Farbähnlichkeiten - also nach Bildinhalten - ermöglicht. Eine solche Sortierung macht es wesentlich leichter, ein bestimmtes Bild in einer großen Menge zu finden, als andere derzeitige Ansätze, die nur Sortierungen nach Name, Datum oder Dateigröße zulassen. ImageSorter eignet sich gut für die Sortierung größerer Bildmengen (300 - 1000 Bilder). 
+
+ImageSorter V4.3 kann zudem zu einem oder mehreren ausgewählten Bildern ähnliche Bilder auf den lokalen Festplatten suchen.
+
+
+1. Laden und Sortieren von Bildern
+**********************************
+
+Wird im Fenster 'Explorer' ein Ordner mit Bildern gewählt, zeigt das Hauptfenster zunächst die Anzahl zu ladender Bilder an. Mit den „Strg“- oder „Shift“-Tasten können weitere Ordner hinzu gewählt werden. Mit der Taste F5, einem Doppelklick im Hauptfenster oder einem Klick auf den Farbsortierungs-Button werden die gewählten Bilder geladen und nach Farbe sortiert. Nachdem das Laden und Sortieren beendet ist, speichert ImageSorter Miniaturansichten der geladenen Bilder und die Sortierung in eigenen Dateien. Dadurch wird das Laden und Sortieren erheblich beschleunigt, sollten die gleichen Bilder ein weiteres mal geladen werden (z.B. beim nächsten Programmstart).
+
+Die Farbsortierung kann mit ESC abgebrochen werden. Der aktuelle Sortierschritt wird beibehalten, allerdings werden keine Daten über die Sortierung gespeichert. Das Laden der Bilder kann ebenfalls mit ESC abgebrochen werden. Das Hauptfenster zeigt dann (fälschlicherweise) die Meldung: 'Ordner enthält keine Bilder'.
+
+2. Anzeigen ähnlicher Bilder auf der lokalen Festplatte suchen
+**************************************************************
+
+Sind ein oder mehrere Bilder markiert und ist kein (!) Begriff im Eingabefeld 'Suchbegriff' eingegeben, können im Explorerfenster rechts ein oder mehrere Ordner gewählt werden. Wird dann auf den Button 'Ähnliche suchen' gedrückt, so werden in den ausgewählten Ordnern Bilder geladen und mit den markierten Bildern vergriffen. Dadurch entsteht eine Liste mit zu den markierten Bildern ähnlichen Bildern, die fortwährend aktualisiert angezeigt wird. Mit der Zeit werden die angezeigten Bilder den vorher markierten Bildern also immer ähnlicher.
+
+3. Sortieransichten
+*******************
+
+Die Bilder können mit den ersten vier Buttons oder dem Menu 'Ansicht' nach Name, Datum, Größe oder Farbe sortiert werden.
+
+4. Kartenansicht und Kugelansicht
+*********************************
+
+Im Modus 'Nach Farbe sortieren' können die Bilder entweder als (Land-)Karte oder als (Pseudo-)Kugel dargestellt werden. Die beiden Ansichten können über die Buttons 'Kartenansicht' und 'Kugelansicht' umgeschaltet werden, alternativ über das Menu 'Ansicht'. In der Kartenansicht liegen ähnliche Bilder nebeneinander oder auf der gegenüberliegenden Seite der Karte. Bilder am rechten Rand ähneln also ihren linken, oberen und unteren Nachbarn, aber auch den Bilder am linken Rand der Karte. Wenn die linke Maustaste gedrückt wird, kann die Karte verschoben werden, ein Bild, welches dann z.B. am rechten Rand verschwindet, taucht daher am linken Rand wieder auf. In der Kugelansicht kann die Kugel bei gedrückter linker Maustaste gedreht werden.
+
+5. Bilder auswählen
+*******************
+Klicken mit der linken Maustaste auf ein Bild lädt es in das Preview Fenster. Ein Doppelklick auf ein Bild startet einen separaten Bildbetrachter, in dem das Bild in seiner Originalauflösung angezeigt wird.
+
+Falls noch kein Bild ausgewählt ist, kann dies durch Klick mir der rechten Maustaste im Hauptfenster geschehen. 
+
+Wenn die „Shift“-Taste gedrückt wird und mit der Maus bei gedrückter linker Maustaste ein Rechteck im Hauptfenster aufgezogen wird, werden alle Bilder innerhalb des Rechtecks ausgewählt.
+
+Wenn die „Shift“ zusammen mit der „Alt“-Taste gedrückt und dabei mit der Maus bei gedrückter linker Maustaste ein Rechteck im Hauptfenster aufgezogen wird, wird die Auswahl innerhalb des Rechtecks aufgehoben.
+
+Wenn bei gedrückter „Strg“-Taste mit der linken Maustaste ein Bild im Haupfenster angeklickt wird und dann bei gedrückter linker Maustaste die Maus bewegt wird, werden zum angeklickten Bild ähnliche Bilder ausgewählt. Dabei ist die Auswahl bei Bewegung nach links oder rechts gröber, bei Bewegung nach oben oder unten feiner.
+
+Wenn bei gedrückter „Strg“- und „Alt“-Taste mit der linken Maustaste ein Bild im Hauptfenster angeklickt wird und dann bei gedrückter linker Maustaste die Maus bewegt wird, wird die Auswahl zum angeklickten Bild ähnlicher Bilder aufgehoben. 
+
+6. Vergrößern/Verkleinern
+*************************
+
+Die Bilder im Hauptfenster können mit dem Mausrad, den Buttons 'Vergrößern' und 'Verkleinern' oder den Befehlen im Menu 'Ansicht' vergrößert oder verkleinert werden. Das Hauptfenster stellt dann ab einer bestimmten Vergrößerung ein Bild in seiner Originalauflösung dar.
+
+Zusätzlich wird bei Vergrößerung unten rechts im Hauptfenster eine Navigationsansicht eingeblendet, welche den gerade dargestellten Ausschnitt darstellt. Dieser Ausschnitt kann auch über die Navigationsansicht mit der Maus verschoben werden. 
+
+7. Hauptfenster zurücksetzen
+****************************
+
+Mit dem Button 'Ansicht zurücksetzen' oder dem entsprechenden Befehl aus dem Menu 'Ansicht' kann das Hauptfenster zurückgesetzt werden. Werte für Zoom, Verschiebung und Bildabstände gehen auf die Startwerte, es wird in die Kartenansicht gewechselt.
+
+8. Kontextmenu
+**************
+
+Ein Klick mit dem rechten Mausknopf im Hauptfenster zeigt das Kontextmenu.
+
+9. Kopieren, Verschieben, Löschen
+*********************************
+
+Über das Kontextmenu können die ausgewählten Bilder kopiert, verschoben oder gelöscht werden. Kopieren und Verschieben einer Datei funktioniert allerdings nicht, wenn im Zielordner schon eine Datei gleichen Namens existiert oder wenn der Zielordner einer der gerade geladenen Ordner ist.
+
+Verschobene und gelöschte Bilder werden im Hauptfenster nicht angezeigt. Es kann dann über das Kontextmenu neu sortiert werden. Wenn die Option 'Automatische Sortierung bei Verstecken, Verschieben oder Löschen' angeschaltet ist wird jedes mal neu sortiert, sobald Bilder verschoben oder gelöscht wurden.
+
+10. Ausgewählte Bilder öffnen (nur Windows)
+*******************************************
+
+Unter Windows können über das Kontextmenu ausgewählte Bilder geöffnet werden. Dabei startet das mit dem Bildtyp registrierte Programm. ImageSorter kann allerdings nicht überprüfen, ob diese Aktion möglicherweise fehlschlägt. Da es auch geraume Zeit dauern kann, viele Bilder zu öffnen, fragt ImageSorter sicherheitshalber nach.
+
+11. Ausgewähltes Bild in die Zwischenablage kopieren
+****************************************************
+
+Ist ein Bild ausgewählt, kann es in die Zwischenablage kopiert werden. Dabei wird die Originalauflösung des Bildes verwendet.
+
+12. Bildformate und Ladefehler
+******************************
+
+ImageSorter kann Bilder in den Formaten jpeg, tif, png, gif, bmp, pbm, pgm, ppm, xbm, und xpm öffnen. Tritt beim Öffnen eines Bildes ein Fehler auf, so wird dieses Bild durch ein graues Fragezeichen im Hauptfenster symbolisiert.

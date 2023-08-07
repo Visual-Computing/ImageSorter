@@ -1,0 +1,30 @@
+#include "imagesort.h"
+// explicit template instantiations for the current project
+template class array<double>;
+template class array<float>;
+template class array<unsigned char>;
+template class array<char>;
+
+#if defined(_MSC_VER)
+template class array<unsigned __int32>;
+#elif defined(__GNUC__)
+template class array<unsigned __int32_t>;
+#else
+#error neither GNU nor MSC compiler
+#endif
+
+
+template class array2D<int>;
+
+#include <QImage>
+template class array<QImage>;
+#include <QString>
+#include <QSize>
+template class array<QString>;
+template class array<QSize>;
+
+struct thumbnail;
+template class array2D<thumbnail*>;
+template class array<thumbnail*>;
+
+	

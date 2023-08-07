@@ -1,0 +1,13 @@
+#if !defined(HIERARCHICSOM_EXPL_TEMPL_INST)
+#define HIERARCHICSOM_EXPL_TEMPL_INST 
+
+#include "pximage.h"
+#include "pxmutex.h"
+#include "pxsorter.h"
+#include "pxsorterimpl.h"
+
+template class hierarchicSom<float,char,isortisearch::refPtr<isortisearch::sortImage>,isortisearch::mutex>;
+template class hierarchicSom<float,char,isortisearch::refPtr<isortisearch::controllerImage>,isortisearch::mutex>;
+template class hierarchicSom<float,char,isortisearch::node,isortisearch::mutex>;
+
+#endif

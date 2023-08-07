@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/" >
+		<file alias="splash">Resources/about3.png</file> 
+		<file alias="about3">Resources/about3.png</file> 
+		<file alias="imageSorterIcon">Resources/imageSorterIcon.png</file> 
+		<file alias="backgroundColorIcon">Resources/backgroundColorIcon.png</file>		
+		<file alias="hardDiskIcon">Resources/harddisk.png</file>
+		<file alias="yahooSearchIcon">Resources/yahooSearchIcon.png</file>
+		<file alias="flickrSearchIcon">Resources/flickrSearchIcon.png</file>
+   		<file alias="sortByNameIcon">Resources/sortByNameIcon.png</file>
+    		<file alias="sortByDateIcon">Resources/sortByDateIcon.png</file> 
+		<file alias="sortBySizeIcon">Resources/sortBySizeIcon.png</file> 
+		<file alias="sortByColorIcon">Resources/sortByColorIcon.png</file> 	
+		<file alias="sortBySimilarityIcon">Resources/sortBySimilarityIcon.png</file> 	
+	        <file alias="zoomInIcon">Resources/zoomInIcon.png</file>
+	        <file alias="zoomOutIcon">Resources/zoomOutIcon.png</file>
+	        <file alias="zoomOrigSizeIcon">Resources/zoomOriginalSizeIcon.png</file>
+	        <file alias="resetIcon">Resources/resetIcon.png</file>
+	        <file alias="loadFailureImage">Resources/loadFailure.png</file>
+	        <file alias="fullscreen">Resources/fullscreen.png</file>
+		<file alias="colorChooser2">Resources/color_chooser2.png</file>
+		<file alias="colorChooser1">Resources/color_chooser1.png</file>
+		<file alias="cross">Resources/cross.png</file>
+	</qresource>
+</RCC>

@@ -1,0 +1,6 @@
+template class arrayV5<unsigned char>;
+template class arrayV5<float>;
+template class arrayV5<int>;
+template class array3DV5<float>;
+#include "pximpldefs.h"
+template class fixedArrayV5<char,HISTOSIZE>;

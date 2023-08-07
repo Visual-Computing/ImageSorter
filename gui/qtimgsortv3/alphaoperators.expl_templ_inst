@@ -1,0 +1,2 @@
+// explicit template instantiations for the current project
+template class simpleOverCheckerBoard<unsigned char>;

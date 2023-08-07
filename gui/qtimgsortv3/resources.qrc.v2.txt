@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/" >
+		<file alias="splash">Resources/about3.png</file> 
+		<file alias="about3">Resources/about3.png</file> 
+	
+		
+		<!-- MAIN WINDOW ICONS -->
+		<file alias="imageSorterIcon">Resources/imageSorterIcon.png</file> 
+		
+		<file alias="backgroundColorIcon">Resources/backgroundColorIcon.png</file>		
+				
+		<file alias="planeIcon">Resources/planeIcon.png</file>    		
+		<file alias="sphereIcon">Resources/sphereIcon.png</file>
+
+    		<file alias="sortByNameIcon">Resources/sortByNameIcon.png</file>
+    		<file alias="sortByDateIcon">Resources/sortByDateIcon.png</file> 
+		<file alias="sortBySizeIcon">Resources/sortBySizeIcon.png</file> 
+		<file alias="sortByColorIcon">Resources/sortByColorIcon.png</file> 	
+
+		<file alias="increaseSpaceIcon">Resources/increaseSpaceIcon.png</file> 
+		<file alias="decreaseSpaceIcon">Resources/decreaseSpaceIcon.png</file> 	
+			
+		<!-- CURSOR ICONS -->
+		<file alias="handCursor">Resources/handCursor.png</file> 
+		<file alias="handGrabCursor">Resources/handGrabCursor.png</file>
+		
+		<!-- IMAGE VIEWER ICONS -->
+	        <file alias="zoomInIcon">Resources/zoomInIcon.png</file>
+	        <file alias="zoomOutIcon">Resources/zoomOutIcon.png</file>
+	        <file alias="zoomFitWindowIcon">Resources/zoomFitWindowIcon.png</file>
+	        <file alias="zoomOrigSizeIcon">Resources/zoomOriginalSizeIcon.png</file>
+	        <file alias="rotateCWIcon">Resources/rotateCWIcon.png</file>
+	        <file alias="rotateCCWIcon">Resources/rotateCCWIcon.png</file>        
+
+	        <file alias="resetIcon">Resources/resetIcon.png</file>
+        
+        
+	        <file alias="loadFailureImage">Resources/loadFailure.png</file>
+    </qresource>
+</RCC>

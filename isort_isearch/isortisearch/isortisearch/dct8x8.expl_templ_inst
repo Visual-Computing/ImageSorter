@@ -1,0 +1,3 @@
+template class dct8x8<float>;
+
+	

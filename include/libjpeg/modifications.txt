@@ -1,0 +1,4 @@
+We added a JBOOLEAN type to replace boolean similar to this issue:
+https://bugzilla.mozilla.org/show_bug.cgi?id=120141
+
+furthermore some defines are changed.

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "isortisearch", "isortisearch\isortisearch.vcproj", "{CD112076-3452-4518-AD21-7A45F931682A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		vBase_Debug|Win32 = vBase_Debug|Win32
+		vBase_Debug|x64 = vBase_Debug|x64
+		vBase_DebugRelease|Win32 = vBase_DebugRelease|Win32
+		vBase_DebugRelease|x64 = vBase_DebugRelease|x64
+		vBase_Release|Win32 = vBase_Release|Win32
+		vBase_Release|x64 = vBase_Release|x64
+		vSearch_Debug_Release|Win32 = vSearch_Debug_Release|Win32
+		vSearch_Debug_Release|x64 = vSearch_Debug_Release|x64
+		vSearch_Debug|Win32 = vSearch_Debug|Win32
+		vSearch_Debug|x64 = vSearch_Debug|x64
+		vSearch_Release|Win32 = vSearch_Release|Win32
+		vSearch_Release|x64 = vSearch_Release|x64
+		vSort_Debug|Win32 = vSort_Debug|Win32
+		vSort_Debug|x64 = vSort_Debug|x64
+		vSort_DebugRelease|Win32 = vSort_DebugRelease|Win32
+		vSort_DebugRelease|x64 = vSort_DebugRelease|x64
+		vSort_Release|Win32 = vSort_Release|Win32
+		vSort_Release|x64 = vSort_Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Debug|Win32.ActiveCfg = vBase_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Debug|Win32.Build.0 = vBase_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Debug|x64.ActiveCfg = vBase_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Debug|x64.Build.0 = vBase_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_DebugRelease|Win32.ActiveCfg = vBase_DebugRelease|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_DebugRelease|Win32.Build.0 = vBase_DebugRelease|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_DebugRelease|x64.ActiveCfg = vBase_DebugRelease|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_DebugRelease|x64.Build.0 = vBase_DebugRelease|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Release|Win32.ActiveCfg = vBase_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Release|Win32.Build.0 = vBase_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Release|x64.ActiveCfg = vBase_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vBase_Release|x64.Build.0 = vBase_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug_Release|Win32.ActiveCfg = vSearch_Debug_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug_Release|Win32.Build.0 = vSearch_Debug_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug_Release|x64.ActiveCfg = vSearch_Debug_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug_Release|x64.Build.0 = vSearch_Debug_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug|Win32.ActiveCfg = vSearch_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug|Win32.Build.0 = vSearch_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug|x64.ActiveCfg = vSearch_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Debug|x64.Build.0 = vSearch_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Release|Win32.ActiveCfg = vSearch_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Release|Win32.Build.0 = vSearch_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Release|x64.ActiveCfg = vSearch_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSearch_Release|x64.Build.0 = vSearch_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Debug|Win32.ActiveCfg = vSort_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Debug|Win32.Build.0 = vSort_Debug|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Debug|x64.ActiveCfg = vSort_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Debug|x64.Build.0 = vSort_Debug|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_DebugRelease|Win32.ActiveCfg = vSort_DebugRelease|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_DebugRelease|Win32.Build.0 = vSort_DebugRelease|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_DebugRelease|x64.ActiveCfg = vSort_DebugRelease|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_DebugRelease|x64.Build.0 = vSort_DebugRelease|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Release|Win32.ActiveCfg = vSort_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Release|Win32.Build.0 = vSort_Release|Win32
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Release|x64.ActiveCfg = vSort_Release|x64
+		{CD112076-3452-4518-AD21-7A45F931682A}.vSort_Release|x64.Build.0 = vSort_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
